@@ -18,26 +18,45 @@ The main questions I want to investigate are:
 
 ## Data Dictionary
 
-These are the columns I plan to record:
+I'm using two CSV files to collect my data. `study_sessions.csv` contains the individual study sessions, while `daily_log.csv` records days when I didn't study.
 
-| Column | Type | Description |
+### study_sessions.csv
+
+| Column | Type | Description / Measurement |
 |---|---|---|
-| date | Text | Date of study |
-| start_time | Text | Time I started |
-| module | Text | Subject I studied |
-| location | Text | Where I studied |
-| activity | Text | Type of study |
-| duration_min | Integer | Minutes spent studying, measured with a timer |
+| date | Text | Date of the session (YYYY-MM-DD) |
+| start_time | Text | Time the session started (HH:MM, 24-hour clock) |
+| module | Text | College module studied |
+| location | Text | Where I studied, e.g. Home or College Library |
+| activity | Text | Type of work, such as revision, coding or practice questions |
+| duration_min | Integer | Session duration in minutes, measured using a timer |
 | interruptions | Integer | Number of distractions lasting at least 10 seconds |
-| energy_before | Integer | Energy level before studying (1-5) |
-| noise_level | Integer | Noise level during the session (1-5) |
-| focus_after | Integer | Focus rating after studying (1-5) |
-| planned_goal | Text | What I wanted to finish |
-| goal_met | Text | Whether I completed it (yes/no) |
+| energy_before | Integer | Energy level before studying, rated 1–5 |
+| noise_level | Integer | Noise during the session, rated 1–5 |
+| focus_after | Integer | How focused I felt during the session, rated afterwards from 1–5 |
+| planned_goal | Text | What I wanted to complete during the session |
+| goal_met | Text | Whether I completed the goal (yes/no) |
 
-For the ratings, 1 means very low and 5 means very high.
+### Rating Scales
 
-I'll try to record each session on the day it happens and update the CSV regularly on GitHub.
+- Energy: 1 = very tired, 5 = very energetic.
+- Noise: 1 = very quiet, 5 = very noisy.
+- Focus: 1 = very distracted, 5 = very focused.
+
+I record the planned goal before starting and the focus rating and goal outcome after finishing.
+
+### daily_log.csv
+
+| Column | Type | Description / Measurement |
+|---|---|---|
+| date | Text | Date when no studying took place (YYYY-MM-DD) |
+| session_count | Integer | Always 0 |
+| total_minutes | Integer | Always 0 minutes |
+| day_type | Text | Always No Study |
+
+This file only contains confirmed days when I didn't study. Dates that haven't been recorded aren't automatically treated as days off.
+
+I will try to keep the measurements and rating scales consistent throughout the project. Any changes or problems with collecting the data will be explained in my collection diary.
 
 ## Project Plan
 
