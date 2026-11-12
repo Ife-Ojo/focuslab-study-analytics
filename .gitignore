@@ -1,0 +1,7 @@
+focuslab.db
+__pycache__/
+*.pyc
+.venv/
+test_area/
+data/backups/
+data/*.tmp
