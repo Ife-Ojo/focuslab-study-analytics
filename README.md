@@ -215,6 +215,23 @@ The collection process has also made me pay more attention to interruptions, how
 
 # Photos
 
+### Study Setup
+
+<img src="images/study_setup.jpeg" alt="My home study setup" width="650">
+
+### Recording Study Data
+
+<img src="images/data_collection.jpeg" alt="Recording my study session data" width="350">
+
+### Studying and Taking Notes
+
+<img src="images/recording_notes.jpeg" alt="Studying and taking notes" width="650">
+
+### Studying in College
+
+<img src="images/college_study.jpeg" alt="My college study environment" width="650">
+
+
 # Findings
 
 # List of files in the project
