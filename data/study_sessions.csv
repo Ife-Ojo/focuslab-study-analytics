@@ -31,4 +31,13 @@ date,start_time,module,location,activity,duration_min,interruptions,energy_befor
 2026-11-17,14:00,Maths for Data Science,Home,CA preparation,75,2,3,2,4,Practise Maths problem sheet questions,yes
 2026-11-17,17:15,Data Centric Programming,Home,Python project work,50,1,3,2,4,Review FocusLab code and pandas analysis,yes
 2026-11-18,09:00,Databases,Home,SQL practice,60,1,4,2,4,Practise SQL queries for the upcoming CA,yes
-2026-11-18,10:300,Analytics for Decision Making,Home,CA preparation,60,2,3,2,3,Revise analytics lab material,no
+2026-11-18,10:30,Analytics for Decision Making,Home,CA preparation,60,2,3,2,3,Revise analytics lab material,no
+2026-11-19,10:30,Databases,Home,SQL practice,120,2,4,2,5,Practise multi-table joins and aggregate functions,yes
+2026-11-19,14:00,Maths for Data Science,Home,Integration practice,60,2,3,2,3,Work through integration questions from problem sheets,no
+2026-11-19,16:10,Maths for Data Science,Home,CA revision,60,1,3,2,3,Complete remaining integration practice questions,no
+2026-11-20,13:45,Analytics for Decision Making,Home,Regression practice,50,1,4,2,4,Review linear regression methods and examples,yes
+2026-11-20,15:10,Analytics for Decision Making,Home,Lab revision,45,1,3,2,4,Practise regression questions from analytics labs,yes
+2026-11-20,19:00,Web Development,Home,PHP and HTML practice,60,2,3,2,4,Practise combining HTML forms with PHP code,yes
+2026-11-21,11:15,Databases,Home,Lab revision,60,1,4,2,4,Review missed database lab and take revision notes,yes
+2026-11-21,14:00,Databases,Home,MCQ practice,45,1,3,2,4,Practise database MCQs for upcoming CA,yes
+
